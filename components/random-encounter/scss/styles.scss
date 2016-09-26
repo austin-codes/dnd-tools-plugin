@@ -1,0 +1,14 @@
+
+
+.encounter-monster {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    div {
+        flex-basis: 100%;
+        flex-span: 1;
+    }
+}

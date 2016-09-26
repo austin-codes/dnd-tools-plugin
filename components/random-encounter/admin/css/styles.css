@@ -1,0 +1,16 @@
+.sort-monster-table thead {
+  background-color: #acacac; }
+  .sort-monster-table thead tr th {
+    border-spacing: 0;
+    border: none;
+    border-collapse: collapse; }
+.sort-monster-table tbody tr:nth-child(2n) {
+  background-color: rgba(186, 220, 171, 0.4); }
+.sort-monster-table tbody tr.header-row {
+  background-color: #acacac; }
+  .sort-monster-table tbody tr.header-row th {
+    padding: 5px;
+    margin: 0 5px; }
+.sort-monster-table tbody tr td {
+  text-align: center;
+  padding: 5px; }

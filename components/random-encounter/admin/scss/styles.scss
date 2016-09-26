@@ -1,0 +1,33 @@
+
+
+.sort-monster-table {
+    thead {
+        background-color: #acacac;
+        tr {
+            th {
+                border-spacing: 0;
+                border: none;
+                border-collapse: collapse;
+            }
+        }
+    }
+    tbody {
+        tr {
+            &:nth-child(2n) {
+                background-color: rgba(#badcab, 0.4);
+            }
+            &.header-row {
+                background-color: #acacac;
+                th {
+                    padding: 5px;
+                    margin: 0 5px;
+                }
+            }
+            td {
+                text-align: center;
+                padding: 5px;
+
+            }
+        }
+    }
+}
